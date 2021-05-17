@@ -1,42 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Nîmes'alerie site vitrine</title>
+  <style>
+    li {
+      display: inline-block;
+      padding: 2rem;
+      background-color: rgb(245, 237, 237);
+      margin-right: 5px;
+    }
+  </style>
 </head>
+*/
+
 <body>
-    <header>
-        <img src="images/LogoPrincipal.png" 
-        alt="Logo de l'enseigne"
-        height="150px" width="300px">
-        <h1>La Nîmes'alerie</h1>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>Accueil</li>
-                <a href="projects.html">
-                    <li>Projets</li>
-                <a href="about.html">
-                    <li>A Propos</li>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Qui sommes-nous</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores est inventore, numquam eos, dignissimos consequatur laudantium iste sequi odio delectus tempore quos earum illum. Eveniet doloremque qui accusamus eum beatae?<br><a href="about.html">En savoir plus...</a></p>
-        </section>
+<!-- HEADER -->
+<header>
+  <img src="./images/LogoPrincipal.png" alt="Logo">
+  <h1>La Nîmes'alerie</h1>
 
-        <section>
-            
-        </section>
+  <!-- NAVBAR -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="projects.html">Projets</a></li>
+      <li><a href="about.html">A propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- /HEADER -->
+
+<!-- MAIN -->
+<main>
+  <!-- PRESENTATION -->
+  <section id="presentation">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis numquam cumque sapiente corrupti officia atque exercitationem expedita suscipit. Nihil. <br><a href="about.html">En savoir plus....</a></p>
+  </section>
+  <!-- /PRESENTATION -->
+
+  <!-- PARTNER -->
+  <section id="partner">
+    <h2>Nos partenaires</h2>
+     <!-- TODO : Rajouter les logos et les liens -->
+    <a href=""><img src="" alt="Client 1"></a>
+    <a href=""><img src="" alt="Client 2"></a>
+    <a href=""><img src="" alt="Client 3"></a>
+  </section>
+   <!-- /PARTNER -->
+
+  <!-- PROJECTS -->
+  <section id="project">
+    <h2>Nos projets</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis numquam cumque sapiente corrupti officia atque exercitationem expedita suscipit. Nihil. <br><a href="projects.html">En savoir plus....</a></p>
+  </section>
+  <!-- /PROJECTS -->
+
+  <!-- TESTIMONIALES -->
+  <section id="testimoniales">
+    <h2>Ce qu'ils pensent de nous</h2>
+    <div class="testi">
+      <h3>Mr X</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus.</p>
+    </div>
+    <div class="testi">
+      <h3>Mr X</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus.</p>
+    </div>
+    <div class="testi">
+      <h3>Mr X</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus.</p>
+    </div>
+    <div class="testi">
+      <h3>Mr X</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus.</p>
+    </div>
+  </section>
+  <!-- /TESTIMONIALS -->
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <span class="cpoy">2021 &copy; La Nîmes'alerie</span>
+</footer>
 
 
-    </main>
+  
 </body>
+
 </html>
